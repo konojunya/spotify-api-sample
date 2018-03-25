@@ -1,0 +1,40 @@
+{
+  "name": "spotify-api-sample",
+  "version": "1.0.0",
+  "description": "SpotifyのAPIを試してみる",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --color --progress",
+    "build:watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konojunya/spotify-api-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konojunya/spotify-api-sample/issues"
+  },
+  "homepage": "https://github.com/konojunya/spotify-api-sample#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
+  }
+}
